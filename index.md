@@ -9,7 +9,7 @@ This is a website where you can see how every Markdown basic syntax works (more 
 
 You can create [hyperlinks](https://www.youtube.com/watch?v=lvwZQTB4iv4) with Markdown 
 
-You can also add images!<br /> 
+You can also add images! Here is a dog: <br /> 
 ![Dog](dog.png)
 
 
