@@ -20,6 +20,24 @@ Here are some programming languages sorted from best to worst:
 
 Here are a few lines of code in different programming languages!: <br />
 ```
-# code block
+# Hello World in Python
 print("Hello world")
 ```
+```
+# Hello World in Java
+public class myClass {
+  public static void main(String[] args){
+    System.out.println("Hello world");
+  }
+}
+```
+```
+# Hello World in C
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+```
+C is kind of bad, but Java is the worst offender.
