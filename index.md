@@ -12,4 +12,14 @@ You can create [hyperlinks](https://www.youtube.com/watch?v=lvwZQTB4iv4) with Ma
 You can also add images! Here is a dog: <br /> 
 ![Dog](dog.png)
 
+Here are some programming languages sorted from best to worst:
+1) Python
+2) Scratch
+3) C
+.
+.
+.
+?) Java
+
+
 
