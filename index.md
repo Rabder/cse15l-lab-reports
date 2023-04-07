@@ -15,10 +15,10 @@ You can also add images! Here is a dog: <br />
 Here are some programming languages sorted from best to worst:
 1) Python
 2) Scratch
-3) C
-.
-.
-.
+3) C <br />
+. <br />
+. <br />
+. <br />
 ?) Java
 
 
