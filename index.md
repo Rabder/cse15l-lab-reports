@@ -18,7 +18,7 @@ Here are some programming languages sorted from best to worst:
 3) C
 4) Java
 
-Here is a line of code!: <br />
+Here are a few lines of code in different programming languages!: <br />
 ```
 # code block
 print("Hello world")
