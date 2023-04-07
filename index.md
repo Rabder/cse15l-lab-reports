@@ -8,5 +8,6 @@ This is a website where you can see how every Markdown basic syntax works (more 
 ## This is the second heading type
 
 You can create [hyperlinks](https://www.youtube.com/watch?v=lvwZQTB4iv4) with Markdown 
+You can also add images! ![Dog](dog.png)
 
 
