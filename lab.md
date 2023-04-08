@@ -23,7 +23,8 @@ First, make sure that you have git installed. In Windows, a quick way of checkin
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-
+Once the command prompt is open, type in git and see what happens. 
 <img src="lab1_pic4.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+ If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git
