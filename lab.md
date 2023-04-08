@@ -19,4 +19,11 @@ Once the installation is over, you will be greeted with a page that looks simila
 ## Step 2: Remotely connecting using ssh (secure shell)
 First, make sure that you have git installed. In Windows, a quick way of checking is by pressing Win + R to open the run tab and then typing in cmd to open the command prompt
 
+<img src="lab1_pic3.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
+
+<img src="lab1_pic4.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
