@@ -17,19 +17,18 @@ Once the installation is over, you will be greeted with a page that looks simila
      style="float: left; margin-right: 10px;" />
 
 ## Step 2: Setting up bash and connecting remotely using ssh (secure shell)
-First, make sure that you have git installed. In Windows, a quick way of checking is by pressing Win + R to open the run tab and then typing in cmd to open the command prompt. Once the command prompt is open, type in git and hit enter.  If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git. <br />
+First, make sure that you have git installed. In Windows, a quick way of checking is by pressing Win + R to open the run tab and then typing in cmd to open the command prompt
 
 <img src="lab1_pic3.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" /> <br />
 
-  <br />
+Once the command prompt is open, type in git and hit enter.  <br />
 <img src="lab1_pic4.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" /> <br />
-     
-To install git, go to [this page](https://gitforwindows.org/) to download the installer. <br />
- 
+ If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git.
+ To install git, go to [this page](https://gitforwindows.org/) to download the installer. <br />
  
 Once git is installed in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://gitforwindows.org/)
 Now that bash is setup, you are ready to remote connect. Input ```ssh cs15lsp23zz@ieng6.ucsd.edu``` in the terminal, where the *zz* are replaced by the letters of your course account ([go to the account lookup page to setup your account](https://sdacs.ucsd.edu/~icc/index.php)). 
