@@ -16,7 +16,7 @@ Once the installation is over, you will be greeted with a page that looks simila
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
-## Step 2: Remotely connecting using ssh (secure shell)
+## Step 2: Setting up bash and connecting remotely using ssh (secure shell)
 First, make sure that you have git installed. In Windows, a quick way of checking is by pressing Win + R to open the run tab and then typing in cmd to open the command prompt
 
 <img src="lab1_pic3.png"
@@ -29,3 +29,5 @@ Once the command prompt is open, type in git and hit enter.
      style="float: left; margin-right: 10px;" />
  If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git.
  To install git, go to [this page](https://gitforwindows.org/) to download the installer.
+ 
+ Once git is setup in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://gitforwindows.org/)
