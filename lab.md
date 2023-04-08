@@ -4,3 +4,7 @@ Welcome to CSE 15L. In this tutorial, you will learn how to install VSCode, how 
 
 ## Step 1: Installing Visual Studio Code
 First, go to [the official VSCode website](https://code.visualstudio.com/) and download the installer that corresponds to your operating system:
+
+<img src="lab1_pic1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
