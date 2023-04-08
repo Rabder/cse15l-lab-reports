@@ -27,4 +27,5 @@ Once the command prompt is open, type in git and hit enter.
 <img src="lab1_pic4.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
- If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git
+ If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git.
+ To install git, go to [this page](https://gitforwindows.org/) to download the installer.
