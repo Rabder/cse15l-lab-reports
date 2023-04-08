@@ -26,43 +26,43 @@ First, make sure that you have git installed. In Windows, a quick way of checkin
 Once the command prompt is open, type in git and hit enter.  <br />
 <img src="lab1_pic4.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
  If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git.
- To install git, go to [this page](https://gitforwindows.org/) to download the installer.
+ To install git, go to [this page](https://gitforwindows.org/) to download the installer. <br />
  
 Once git is installed in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://gitforwindows.org/)
 Now that bash is setup, you are ready to remote connect. Input ```ssh cs15lsp23zz@ieng6.ucsd.edu``` in the terminal, where the *zz* are replaced by the letters of your course account ([go to the account lookup page to setup your account](https://sdacs.ucsd.edu/~icc/index.php)). 
-After this, you will be asked to input a password. This is the same password you chose when you setup your CSE 15L account
+After this, you will be asked to input a password. This is the same password you chose when you setup your CSE 15L account <br />
 
 <img src="lab1_pic5.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
      
-If all goes well after you input the password, you would see something similar to this in the terminal
+If all goes well after you input the password, you would see something similar to this in the terminal <br />
 <img src="lab1_pic6.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-This means that you are now remotely connected!
+     style="float: left; margin-right: 10px;" /> <br />
+This means that you are now remotely connected! <br />
 
 ## Step 3: Running a few commands
-Here are a few interesting commands to try out. For a comprehensive list, consider looking [at this website](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
+Here are a few interesting commands to try out. For a comprehensive list, consider looking [at this website](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/) <br />
 
 1) pwd. Shows the current working directory <br />
 <img src="lab1_pic7.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
      
 2) ls. Lists the contents of the current directory <br />
 <img src="lab1_pic8.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
      
 3) mkdir <your directory's name>. Create a new directory <br />
 <img src="lab1_pic9.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
      
 4) cd <your directory's name>. Change directory <br />
 <img src="lab1_pic10.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
