@@ -10,7 +10,7 @@ First, go to [the official VSCode website](https://code.visualstudio.com/) and d
      style="float: left; margin-right: 10px;" />
      
      
-Once the installation is over, you will be greeted with a page that looks similar to the following screenshot. Note that depending on your system settings, the background color/fonts may be vary
+Once the installation is over, you will be greeted with a page that looks similar to the following screenshot. Note that depending on your system settings, the background color/fonts may vary
 
 <img src="lab1_pic2.png"
      alt="Markdown Monster icon"
