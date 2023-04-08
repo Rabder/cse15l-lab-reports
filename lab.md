@@ -45,4 +45,4 @@ If all goes well after you input the password, you would see something similar t
 This means that you are now remotely connected!
 
 ## Step 3: Running a few commands
-
+Here are a few interesting commands to try out. For a comprehensive list, consider looking [at this website](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
