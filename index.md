@@ -30,7 +30,7 @@ Once the command prompt is open, type in git and hit enter.  <br />
  If a list of commands shows up, it means that git is most likely installed in your computer. If you get anything along the lines of *'git' is not recognized as an internal or external command, operable program or batch file*, then you will have to install git.
  To install git, go to [this page](https://gitforwindows.org/) to download the installer. <br />
  
-Once git is installed in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://gitforwindows.org/)
+Once git is installed in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 Now that bash is setup, you are ready to remote connect. Input ```ssh cs15lsp23zz@ieng6.ucsd.edu``` in the terminal, where the *zz* are replaced by the letters of your course account ([go to the account lookup page to setup your account](https://sdacs.ucsd.edu/~icc/index.php)). 
 After this, you will be asked to input a password. This is the same password you chose when you setup your CSE 15L account <br />
 
