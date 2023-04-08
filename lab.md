@@ -37,4 +37,8 @@ After this, you will be asked to input a password. This is the same password you
 <img src="lab1_pic5.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
- 
+     
+If all goes well after you input the password, you would see something similar to this in the terminal
+<img src="lab1_pic6.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
