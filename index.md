@@ -50,19 +50,19 @@ Here are a few interesting commands to try out. For a comprehensive list, consid
 1) pwd. Shows the current working directory <br />
 <img src="lab1_pic7.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" /> <br />
+     style="display: block; margin: 0 auto"" /> <br />
      
 2) ls. Lists the contents of the current directory <br />
 <img src="lab1_pic8.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" /> <br />
+     style="display: block; margin: 0 auto" /> <br />
      
 3) mkdir <your directory's name>. Create a new directory <br />
 <img src="lab1_pic9.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" /> <br />
+     style="display: block; margin: 0 auto" /> <br />
      
 4) cd <your directory's name>. Change directory <br />
 <img src="lab1_pic10.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" /> <br />
+     style="display: block; margin: 0 auto" /> <br />
