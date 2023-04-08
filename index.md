@@ -50,7 +50,7 @@ Here are a few interesting commands to try out. For a comprehensive list, consid
 1) pwd. Shows the current working directory <br />
 <img src="lab1_pic7.png"
      alt="Markdown Monster icon"
-     style="display: block; margin: 0 auto"" /> <br />
+     style="display: block; margin: 0 auto" /> <br />
      
 2) ls. Lists the contents of the current directory <br />
 <img src="lab1_pic8.png"
