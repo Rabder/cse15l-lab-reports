@@ -31,3 +31,4 @@ Once the command prompt is open, type in git and hit enter.
  To install git, go to [this page](https://gitforwindows.org/) to download the installer.
  
  Once git is setup in your computer, follow [this StacKOverflow post on how to use bash in the VSCode terminal.](https://gitforwindows.org/)
+ In VSCode, hit * CTRL+SHIFT+` * to create a new terminal 
