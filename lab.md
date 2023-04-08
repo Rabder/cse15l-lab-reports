@@ -42,3 +42,7 @@ If all goes well after you input the password, you would see something similar t
 <img src="lab1_pic6.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+This means that you are now remotely connected!
+
+## Step 3: Running a few commands
+
