@@ -8,3 +8,10 @@ First, go to [the official VSCode website](https://code.visualstudio.com/) and d
 <img src="lab1_pic1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
+     
+Once the installation is over, you will be greeted with a page that looks similar to the following screenshot. Note that depending on your system settings, the background color/fonts may be vary
+
+<img src="lab1_pic2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
