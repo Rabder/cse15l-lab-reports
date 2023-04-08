@@ -21,9 +21,9 @@ First, make sure that you have git installed. In Windows, a quick way of checkin
 
 <img src="lab1_pic3.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" /> <br />
 
-Once the command prompt is open, type in git and hit enter. 
+Once the command prompt is open, type in git and hit enter.  <br />
 <img src="lab1_pic4.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
