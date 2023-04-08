@@ -46,3 +46,8 @@ This means that you are now remotely connected!
 
 ## Step 3: Running a few commands
 Here are a few interesting commands to try out. For a comprehensive list, consider looking [at this website](https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/)
+
+1) pwd. Shows the current working directory 
+<img src="lab1_pic7.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
