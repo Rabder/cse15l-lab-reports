@@ -1,4 +1,4 @@
-Rashid's CSE 15L webpage
+# Rashid's CSE 15L webpage
 
 - [Lab 1 Report](lab1.md)
 - Lab 2 Report
