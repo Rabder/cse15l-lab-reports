@@ -8,5 +8,5 @@ Code for `StringServer.java` <br />
 ![How are you doing today?](stringserver_output1.png) 
 
 - Output for `add-message?s=I'm feeling fine today`
-![I'm feeling fine today](stringserver_output2.png) 
+![I'm feeling fine today](output2.png) 
 
