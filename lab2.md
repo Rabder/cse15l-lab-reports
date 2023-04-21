@@ -7,6 +7,7 @@ Code for `StringServer.java` <br />
 - Output for `add-message?s=How are you doing today?`
 ![How are you doing today?](stringserver_output1.png) 
 For this command, we are calling the `handleRequest` method, which takes an object of type `URI`.
+We initialize a `String` called `s1` which is initially empty (set to `""`) 
 
 
 - Output for `add-message?s=I'm feeling fine today`
