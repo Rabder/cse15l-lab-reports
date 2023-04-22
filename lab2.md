@@ -55,7 +55,7 @@ Here are the differences:
     return arr;
   }
   ```
-  - After <br />
+- After <br />
   ```Java
   // Returns a *new* array with all the elements of the input array in reversed
   // order
