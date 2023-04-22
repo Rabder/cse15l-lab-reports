@@ -31,3 +31,12 @@ Here are the differences:
     assertEquals(input[input.length-1], ArrayExamples.reversed(input)[0]); 
   }
   ```
+## Test that doesn't induce a failure
+``` Java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+  ```
