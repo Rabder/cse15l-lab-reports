@@ -1,4 +1,4 @@
-# Lab 2 Report
+# Lab Report 2
 
 ## 1. StringServer
 Code for `StringServer.java` <br />
