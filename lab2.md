@@ -13,7 +13,7 @@ Code for `StringServer.java` <br />
 
 
 - Output for `add-message?s=I'm feeling fine today`
-![I'm feeling fine today](output2.png) 
+![I'm feeling fine today](output2.png) <br />
 The code that runs for this command is very similar to the one that ran for the previous command. 
 Here are the differences:
 1. `stringlst` still has our first `String` (`"How are you doing today"?`).
