@@ -73,4 +73,4 @@ Here are the differences:
  1. We were running the loop `n` times instead of `n/2` times (`n` is the size of the array). We need to run it `n/2` times to properly, otherwise we are just reverting every change we make to the order of the array and end up with the same array as before
  2. We were setting the value of `arr[i]` to `newArray[arr.length - i - 1]`, when we actually want to do the opposite.
  3. We were returning `arr`, our original array, instead of `newArray`.
- 
+ After making these corrections, `reverse` works as intended. 
