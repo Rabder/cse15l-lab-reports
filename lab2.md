@@ -23,7 +23,7 @@ Here are the differences:
 
 
 #  2. Bugs
-## Test that induces a failure
+### Test that induces a failure
 ``` Java
 @Test 
   public void firstElementReverse() { 
@@ -31,7 +31,7 @@ Here are the differences:
     assertEquals(input[input.length-1], ArrayExamples.reversed(input)[0]); 
   }
   ```
-## Test that doesn't induce a failure
+### Test that doesn't induce a failure
 ``` Java
   @Test
   public void testReversed() {
@@ -39,3 +39,5 @@ Here are the differences:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
   ```
+  ### Symptoms
+  ![Bug output](bug_output.png)
