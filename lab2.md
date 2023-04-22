@@ -6,12 +6,13 @@ Code for `StringServer.java` <br />
 
 - Output for `add-message?s=How are you doing today?`
 ![How are you doing today?](stringserver_output1.png) 
-For this command, we are calling the `handleRequest` method, which takes an object of type `URI`.
-We initialize a `String` called `s1` which is initially empty (set to `""`) and an `ArrayList<String>` called `stringlst`.
-Since we are giving `add-message` as a path, the code in the `else` statement of the method runs. It checks that the path contains `/add-message` and picks the `String` that comes after `s=`.
-We also add the `String` to `stringlst`. Then, we loop through every element of `stringlst` to concatenate each element to `s1`. Finally, run `String.format(s1)`, which prints the string we added and everything in `stringlst` at that point in a nice format. 
+1. For this command, we are calling the `handleRequest` method, which takes an object of type `URI` called `url`. In this case, `url` has the value `http://localhost:1024/add-message?s=How%20are%20you%20doing%20today?`.
+2. We initialize a `String` called `s1` which is initially empty (set to `""`) and an `ArrayList<String>` called `stringlst`.
+3. Since we are giving `add-message` as a path, the code in the `else` statement of the method runs. It checks that the path contains `/add-message` and picks the `String` that comes after `s=`. We also add the `String` to `stringlst`. 
+4. Then, we loop through every element of `stringlst` to concatenate each element to `s1`. Finally, run `String.format(s1)`, which prints the string we added and everything in `stringlst` at that point in a nice format. 
 
 
 - Output for `add-message?s=I'm feeling fine today`
 ![I'm feeling fine today](output2.png) 
+The code that runs for 
 
