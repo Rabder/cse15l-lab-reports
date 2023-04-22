@@ -2,7 +2,7 @@
 
 ## 1. StringServer
 Code for `StringServer.java` <br />
-```
+```Java
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
