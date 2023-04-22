@@ -41,3 +41,18 @@ Here are the differences:
   ```
   ### Symptoms
   ![Bug output](bug_output.png)
+  
+### Fix
+- Before <br />
+  ```Java
+       // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length / 2; i++) {
+      
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
+  ```
