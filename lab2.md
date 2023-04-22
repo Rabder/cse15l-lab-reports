@@ -6,7 +6,7 @@ Code for `StringServer.java` <br />
 
 - Output for `add-message?s=How are you doing today?`
 ![How are you doing today?](stringserver_output1.png) 
-1. For this command, we are calling the `handleRequest` method, which takes an object of type `URI` called `url`. In this case, `url` holds `http://localhost:1024/add-message?s=How%20are%20you%20doing%20today?`.
+1. For this command, we are calling the `handleRequest` method, which takes an object of type `URI` called `url`. In this case, `url` holds `http://localhost:1024/add-message?s=How are you doing today?`.
 2. We initialize a string called `s1` which is initially empty (set to "") and an `ArrayList<String>` called `stringlst`.
 3. Since we are inputting `add-message` as a path, the code in the `else` statement of the method runs. It checks that the path contains `/add-message` and picks the `String` that comes after `s=` by splitting the query component of `url` using `"="` as a delimiter. These strings are stored in a `String` array called `parameters`, which has two elements: `{"s", "How are you doing today?"}`. We add the element of `parameters` at index 1 to `stringlst`.
 4. Then, we loop through every element of `stringlst` to concatenate each element to `s1`. Finally, run `String.format(s1)`, which prints the string we added and everything in `stringlst` at that point in a nice format. 
