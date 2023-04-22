@@ -74,3 +74,6 @@ Here are the differences:
  2. We were setting the value of `arr[i]` to `newArray[arr.length - i - 1]`, when we actually want to do the opposite.
  3. We were returning `arr`, our original array, instead of `newArray`. <br /><br />
  After making these corrections, `reverse` works as intended and passes the fail inducing test.
+ 
+ ## 3. What did I learn?
+ 
