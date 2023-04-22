@@ -23,3 +23,9 @@ Here are the differences:
 
 
 #  2. Bugs
+## Test that induces a failure
+`  @Test
+  public void firstElementReverse() {
+    int[] input = {1, 2, 3};
+    assertEquals(input[input.length-1], ArrayExamples.reversed(input)[0]);
+  }`
