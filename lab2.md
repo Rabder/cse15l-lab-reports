@@ -2,7 +2,56 @@
 
 ## 1. StringServer
 Code for `StringServer.java` <br />
-![Code for StringServer.java](stringserver_code.png) <br />
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    ArrayList<String> stringlst = new ArrayList<>();
+    String s1 = "";
+    public String handleRequest(URI url) {
+        s1 = "";
+        if (url.getPath().equals("/")) {
+            return String.format("String server!");
+        }
+        else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                String see = parameters.toString();
+                System.out.println(parameters[0]);
+                System.out.println(parameters[1]);
+                if (parameters[0].equals("s")) {
+                    stringlst.add(parameters[1]);
+                    for (String s: stringlst){
+                        s1 += s + "\n";
+                    }
+                    return String.format(s1);
+                }
+            }
+            return "404 Not Found!";
+        }
+}
+}
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+```
+<br />
 
 - Output for `add-message?s=How are you doing today?`
 ![How are you doing today?](stringserver_output1.png) 
