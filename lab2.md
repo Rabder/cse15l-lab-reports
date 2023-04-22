@@ -7,8 +7,8 @@ Code for `StringServer.java` <br />
 - Output for `add-message?s=How are you doing today?`
 ![How are you doing today?](stringserver_output1.png) 
 1. For this command, we are calling the `handleRequest` method, which takes an object of type `URI` called `url`. In this case, `url` holds `http://localhost:1024/add-message?s=How%20are%20you%20doing%20today?`.
-2. We initialize a `String` called `s1` which is initially empty (set to `""`) and an `ArrayList<String>` called `stringlst`.
-3. Since we are giving `add-message` as a path, the code in the `else` statement of the method runs. It checks that the path contains `/add-message` and picks the `String` that comes after `s=` by splitting the query component of `url` using `"="` as a delimiter. These strings are stored in a `String` array called `parameters`, which has two elements: `{"s", "How are you doing today?"}`. We add the element of `parameters` at index 1 to `stringlst`.
+2. We initialize a string called `s1` which is initially empty (set to "") and an `ArrayList<String>` called `stringlst`.
+3. Since we are inputting `add-message` as a path, the code in the `else` statement of the method runs. It checks that the path contains `/add-message` and picks the `String` that comes after `s=` by splitting the query component of `url` using `"="` as a delimiter. These strings are stored in a `String` array called `parameters`, which has two elements: `{"s", "How are you doing today?"}`. We add the element of `parameters` at index 1 to `stringlst`.
 4. Then, we loop through every element of `stringlst` to concatenate each element to `s1`. Finally, run `String.format(s1)`, which prints the string we added and everything in `stringlst` at that point in a nice format. 
 
 
@@ -16,7 +16,7 @@ Code for `StringServer.java` <br />
 ![I'm feeling fine today](output2.png) <br />
 The code that runs for this command is very similar to the one that ran for the previous command. 
 Here are the differences:
-1. `stringlst` still has our first `String` (`"How are you doing today"?`).
+1. `stringlst` still has our first string (`"How are you doing today"?`).
 2. `url` holds `http://localhost:1024/add-message?s=I%27m%20feeling%20fine%20today`.
 3. `parameters` now stores the following elements: `{"s", "I'm feeling fine today"}`. We still add the element at index 0 to `stringlst`.
 4. We concatenate every element of `stringlst` to `s1` and print the newly added string along with any other strings in the list. 
@@ -76,4 +76,4 @@ Here are the differences:
 After making these corrections, `reverse` works as intended and passes the fail inducing test.
  
  ## 3. What did I learn?
- 
+ I think I got a few ideas on how to run a simple local server, and what the code for implementing web server that does interesting stuff looks like. I did not know that Java, with the help of an external package, was able to make managing a local server as simple as creating a couple of files. I'm interested in learning more about how the code in the `Server.java` works and how server implementation varies across some of the other programming languages I'm already familiar with.
