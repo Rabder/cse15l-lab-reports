@@ -60,7 +60,6 @@ Here are the differences:
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length / 2; i++) {
-      
       newArray[arr.length - i - 1] = arr[i];
     }
     return newArray;
