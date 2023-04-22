@@ -45,6 +45,8 @@ Here are the differences:
 ### Fix
 - Before <br />
   ```Java
+   // Returns a *new* array with all the elements of the input array in reversed
+   // order
    static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -55,7 +57,7 @@ Here are the differences:
   ```
   -After <br />
   ```Java
-    // Returns a *new* array with all the elements of the input array in reversed
+  // Returns a *new* array with all the elements of the input array in reversed
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
