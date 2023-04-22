@@ -17,8 +17,8 @@ Code for `StringServer.java` <br />
 The code that runs for this command is very similar to the one that ran for the previous command. 
 Here are the differences:
 1. `stringlst` still has our first string (`"How are you doing today"?`).
-2. `url` holds `http://localhost:1024/add-message?s=I%27m%20feeling%20fine%20today`.
-3. `parameters` now stores the following elements: `{"s", "I'm feeling fine today"}`. We still add the element at index 0 to `stringlst`.
+2. `url` holds `http://localhost:1024/add-message?s=I'm feeling fine today`.
+3. `parameters` now stores the following elements: `{"s", "I'm feeling fine today"}`. We still add the element at index 1 to `stringlst`.
 4. We concatenate every element of `stringlst` to `s1` and print the newly added string along with any other strings in the list. 
 
 
