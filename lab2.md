@@ -21,3 +21,5 @@ Here are the differences:
 3. `parameters` now stores the following elements: `{"s", "I'm feeling fine today"}`. We still add the element at index 0 to `stringlst`.
 4. We concatenate every element of `stringlst` to `s1` and print the newly added string along with any other strings in the list. 
 
+
+#  2. Bugs
