@@ -22,7 +22,7 @@ Here are the differences:
 4. We concatenate every element of `stringlst` to `s1` and print the newly added string along with any other strings in the list. 
 
 
-#  2. Bugs
+##  2. Bugs
 ### Test that induces a failure
 ``` Java
 @Test 
@@ -45,7 +45,17 @@ Here are the differences:
 ### Fix
 - Before <br />
   ```Java
-       // Returns a *new* array with all the elements of the input array in reversed
+         static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+  -After <br />
+  ```Java
+    // Returns a *new* array with all the elements of the input array in reversed
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
