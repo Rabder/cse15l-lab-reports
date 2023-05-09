@@ -12,6 +12,9 @@ This option allows us to filter the search output for files based on their size.
 
 We would run the following command to find all files that are between 10 bytes and 100 kilobytes in size inside of ```technical/biomed/```: <br /><br />
 ```find technical/biomed/ -size +10b -size -100k```
+<br />
+<br />
+Notice how the ```+``` sign before our value denotes "greater than" and the ```-``` sign denotes "less than".
 
 
 
