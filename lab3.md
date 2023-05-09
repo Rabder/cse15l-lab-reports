@@ -23,7 +23,7 @@ We would then get the following output:
 ![Size option](sizeoutput2.png) 
 
 Things look a little different when we want to find files that are within a range of sizes.
-We would run the following command to find all files that are between 10 bytes and 10 kilobytes in size inside of ```technical/biomed/```: <br /><br />
+For example, we would run the following command to find all files that are between 10 bytes and 10 kilobytes in size inside of ```technical/biomed/```: <br /><br />
 ```find technical/biomed/ -size +10b -size -10k```
 <br />
 <br />
