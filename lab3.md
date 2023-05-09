@@ -15,7 +15,7 @@ If we wanted to find files that matched a particular size, we would just use ```
 - ```M``` for megabytes
 - ```G``` for gigabytes
 
-For example, if we wanted to find all files that have a size of exactly 1kb in ```technical/plos/```, we would use the following command:
+For example, if we wanted to find all files that have a size of exactly 1 kilobyte in ```technical/plos/```, we would use the following command:
 
 ```find technical/plos/ -size 1k```
 
