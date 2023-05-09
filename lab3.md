@@ -16,6 +16,8 @@ We would run the following command to find all files that are between 10 bytes a
 <br />
 Notice how the ```+``` sign before our value denotes "greater than" and the ```-``` sign denotes "less than". This is how we can bound files to be within a range of sizes.
 This is the output we get after running the command:
+<br />
+<br />
 ![Size option](sizeoutput1.png) 
 
 
