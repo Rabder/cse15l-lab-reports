@@ -11,7 +11,7 @@ In this lab report, I look up some of the most interesting options for *find*.
 This option allows us to filter the search output for files based on their size. We can use this look for files that are larger or smaller than a particular size or within a certain size range. 
 
 We would run the following command to find all files that are between 10 bytes and 100 kilobytes in size inside of ```technical/biomed/```: <br /><br />
-```find technical/biomed/ -size +10b -size -100k```
+```find technical/biomed/ -size +10b -size -10k```
 <br />
 <br />
 Notice how the ```+``` sign before our value denotes "greater than" and the ```-``` sign denotes "less than". This is how we can bound files to be within a range of sizes.
