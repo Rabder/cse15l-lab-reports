@@ -71,7 +71,7 @@ We can also use this option to delete directories. If we wanted to delete ```tec
 ![Delete biomed files](deleteoutput2.png)
 
 ### 4. -exec option
-If we want to find files based on their modification time, we can use the -mtime <n> option, where *n* is the number of days since the file was modified. For example, if we wanted to pick all of the .txt files of ```technical/plos``` and copy them a folder named ```exectest``` in the root directory, we would run ```find technical/plos/ -name "*.txt" -exec cp {} ~/exectest/ \;```
+If we want to perform an action on the output we get from find, we can use the ```-exec``` option. For example, if we wanted to pick all of the .txt files of ```technical/plos``` and copy them to a folder named ```exectest``` in the root directory, we would run ```find technical/plos/ -name "*.txt" -exec cp {} ~/exectest/ \;```
 </br>
 </br>
 ![Copy all of technical/plos](execoutput1.png)
