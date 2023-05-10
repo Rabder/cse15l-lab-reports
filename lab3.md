@@ -80,4 +80,6 @@ You can think of the ```{}``` as a placeholder for the file that is currently be
 
 Another example would be displaying all of the files in ```technical/plos/``` along with their file size. We can do this by running ```find technical/plos/ -type f -exec ls -l {} \;```:
 
+![Show details of files in technical/plos](execoutput2.png)
+
   
