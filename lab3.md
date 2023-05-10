@@ -34,7 +34,7 @@ This is the output we get after running the command:
 ![Size option](sizeoutput1.png) 
 
 
-### 2. __-type___ option
+### 2. __-type__ option
 
 __-type__ allows us to search for files and directories based on their type. This is specified by ```-type <character>```, where the character determines the file type. There are many types  we could use but I think that for now the following two are the ones I will use the most:
 - ```-type f``` for files
@@ -58,7 +58,7 @@ Similarly, if we run ```find technical -type f```, we would only get an output i
 ![Find files](typeoutput2.png)
 
 
-### 3. __-delete___ option
+### 3. __-delete__ option
 We can also use *find* to delete files or directories that match a particular criterion. Combining the *name*, *type* and *delete* options, we can delete files in a particular directory that match our specified extension.
 
 For example, ```find technical/biomed -name "*.txt" -type f -delete``` would delete all the ```.txt``` files in ```technical/biomed```:
