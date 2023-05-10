@@ -78,7 +78,7 @@ If we want to perform an action on the output we get from find, we can use the `
 
 You can think of the ```{}``` as a placeholder for the file that is currently being processed. The ```\;``` at the end of the command tells ```find``` to run the ```cp``` command on the file that it found and then terminate the command for that file.
 
-Another example would be displaying all of the files in ```technical/plos/``` along with their file size. We can do this by running ```find technical/plos/ -type f -exec ls -l {} \;```:
+Another example would be displaying all of the files in ```technical/plos/``` along with their file size, the date it was created/modified, along with some other information. We can do this by running ```find technical/plos/ -type f -exec ls -l {} \;```:
 
 ![Show details of files in technical/plos](execoutput2.png)
 
