@@ -86,14 +86,14 @@ Another example would be displaying all of the files in ```technical/plos/``` al
 ## ChatGPT prompts
 
 ### Starting point: ```What are some interesting options for find?```
-### 1. Size
+#### 1. Size
 - ```Can you tell me more about the -size option?```
-### 2. Type
+#### 2. Type
 - ```Can you tell me more about the -type option?```
-### 3. Delete
+#### 3. Delete
 - ```Can you tell me more about the -delete option?```
 - ```Can we use this option to delete directories?```
-### 4. Exec
+#### 4. Exec
 - ```Can you tell me more about the -exec option?```
 - ```What is the \; at the end of the command?```
 - ```What is {}?```
