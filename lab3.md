@@ -4,7 +4,7 @@
 
 *find* is a Linux command used for searching through file hierarchies and finding files and directories. 
 This makes it a useful command, especially if you have a large number of files and nested directories and you want to find a particular file or directory with as few commands as possible.
-In this lab report, I look up some of the most interesting options for *find*.
+In this lab report, I talk about some of the most interesting options for *find*. All of the information in this report comes from ChatGPT. The prompts I used can be found at the end of this report.
 
 ### 1. __-size__ option
 
@@ -81,5 +81,23 @@ You can think of the ```{}``` as a placeholder for the file that is currently be
 Another example would be displaying all of the files in ```technical/plos/``` along with their file size, the date it was created/modified, along with some other information. We can do this by running ```find technical/plos/ -type f -exec ls -l {} \;```:
 
 ![Show details of files in technical/plos](execoutput2.png)
+
+
+## ChatGPT prompts
+
+### 1. ```What are some interesting options for find?```
+### 2. Size
+- ```Can you tell me more about the -size option?```
+### 3. Type
+- ```Can you tell me more about the -type option?```
+### 4. Delete
+- ```Can you tell me more about the -delete option?```
+- ```Can we use this option to delete directories?```
+### 5. Exec
+- ```Can you tell me more about the -exec option?```
+- ```What is the \; at the end of the command?```
+- ```What is {}?```
+- ```What does ls -l do?```
+
 
   
