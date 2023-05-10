@@ -97,7 +97,7 @@ Another example would be displaying all of the files in ```technical/plos/``` al
 - ```Can you tell me more about the -exec option?```
 - ```What is the \; at the end of the command?```
 - ```What is {}?```
-- ```What does ls -l do?```
+- ```What does the command ls -l do?```
 
 
   
