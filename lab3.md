@@ -70,3 +70,6 @@ We can also use this option to delete directories. If we wanted to delete ```tec
 </br>
 ![Delete biomed files](deleteoutput2.png)
 
+### 4. -exec option
+If we want to find files based on their modification time, we can use the -mtime <n> option, where *n* is the number of days since the file was modified. For example, if we wanted to pick all of the .txt files of ```technical/plos``` and change them to an .md extension, we would run ```find technical/plos -name "*.txt" -type f -exec convert {} {}.png +```.
+
