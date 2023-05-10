@@ -34,6 +34,15 @@ This is the output we get after running the command:
 ![Size option](sizeoutput1.png) 
 
 
+### 2. __-type___ option
+
+__-type__ allows us to search for files and directories based on their type. This is specified by ```-type <character>```, where the character determines the file type. There are many types  we could use but I think that for now the following two are the ones I will use the most:
+- ```-type f``` for files
+- ```-type d``` for directories
+
+Normally if we run find with just the directory where we want to look, we will get a mix of files and directories in our output. This is what happens when we run ```find technical```:
+
+![Just find](typeoutput.png)
 
 
 
