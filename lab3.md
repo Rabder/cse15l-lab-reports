@@ -16,21 +16,21 @@ If we wanted to find files that matched a particular size, we would just use ```
 - ```G``` for gigabytes
 
 For example, if we wanted to find all files that have a size of exactly 1 kilobyte in ```technical/plos/```, we would use the following command: ```find technical/plos/ -size 1k```
-\
+
 We would then get the following output:
 ![Size option](sizeoutput2.png) 
-\
+
 
 Things look a little different when we want to find files that are within a range of sizes.
 For example, we would run the following command to find all files that are between 10 bytes and 10 kilobytes in size inside of ```technical/biomed/```: 
-\
+
 ```find technical/biomed/ -size +10b -size -10k```
-\
+
 Notice how the ```+``` sign before our value denotes "greater than" and the ```-``` sign denotes "less than". This is how we can bound files to be within a range of sizes.
 This is the output we get after running the command: 
-\
+
 ![Size option](sizeoutput1.png) 
-\
+
 
 ### 2. __-type__ option
 
@@ -39,42 +39,42 @@ __-type__ allows us to search for files and directories based on their type. Thi
 - ```-type d``` for directories
 
 Normally if we run find with just the directory where we want to look, we will get a mix of files and directories in our output. This is what happens when we run ```find technical```:
-\
+
 ![Just find](typeoutput.png)
-\
+
 
 
 There is a lot more output than what is on this screenshot, but notice how we are getting directories as well as ```.txt``` files in our output. 
 If we run ```find technical -type d```, we would only get an output if the result is a __directory__:
-\
+
 ![Find directories](typeoutput1.png)
-\
+
 
 
 Similarly, if we run ```find technical -type f```, we would only get an output if the result is a __file__:
-\
+
 ![Find files](typeoutput2.png)
-\
+
 
 
 ### 3. __-delete__ option
 We can also use *find* to delete files or directories that match a particular criterion. Combining the *name*, *type* and *delete* options, we can delete files in a particular directory that match our specified extension.
 
 For example, ```find technical/biomed -name "*.txt" -type f -delete``` would delete all the ```.txt``` files in ```technical/biomed```:
-\
+
 ![Delete biomed files](deleteoutput1.png)
-\
+
 
 We can also use this option to delete directories. If we wanted to delete ```technical/biomed```, we would run ```find technical -name biomed -type d -delete```
-\
+
 ![Delete biomed files](deleteoutput2.png)
-\
+
 
 ### 4. -exec option
 If we want to perform an action on the output we get from find, we can use the ```-exec``` option. For example, if we wanted to pick all of the .txt files of ```technical/plos``` and copy them to a folder named ```exectest``` in the root directory, we would run ```find technical/plos/ -name "*.txt" -exec cp {} ~/exectest/ \;```
-\
+
 ![Copy all of technical/plos](execoutput1.png)
-\
+
 
 You can think of the ```{}``` as a placeholder for the file that is currently being processed. The ```\;``` at the end of the command tells ```find``` to run the ```cp``` command on the file that it found and then terminate the command for that file.
 
