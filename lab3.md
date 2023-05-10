@@ -43,6 +43,9 @@ __-type__ allows us to search for files and directories based on their type. Thi
 Normally if we run find with just the directory where we want to look, we will get a mix of files and directories in our output. This is what happens when we run ```find technical```:
 
 ![Just find](typeoutput.png)
+</br>
+</br>
+
 
 There is a lot more output than what it's on this screenshot, but notice how we are getting directories as well as ```.txt``` files in our output. 
 If we run ```find technical -type d```, we would get an output if the result is a directory:
