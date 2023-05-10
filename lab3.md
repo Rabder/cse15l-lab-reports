@@ -46,8 +46,7 @@ Normally if we run find with just the directory where we want to look, we will g
 </br>
 </br>
 
-
-There is a lot more output than what it's on this screenshot, but notice how we are getting directories as well as ```.txt``` files in our output. 
+There is a lot more output than what is on this screenshot, but notice how we are getting directories as well as ```.txt``` files in our output. 
 If we run ```find technical -type d```, we would only get an output if the result is a __directory__:
 
 ![Find directories](typeoutput1.png)
