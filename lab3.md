@@ -59,3 +59,9 @@ Similarly, if we run ```find technical -type f```, we would only get an output i
 ![Find files](typeoutput2.png)
 
 
+### 3. __-delete___ option
+We can also use *find* to delete files or directories that match a particular criteria. Combining the *name*, *type* and *delete* options, we can delete files in a particular directory that match our specified extension.
+
+For example, ```find technical/biomed -name "*.txt" -type f -delete``` would delete all the ```.txt``` files in ```technical/biomed```:
+![Delete biomed files](deleteoutput1.png)
+
