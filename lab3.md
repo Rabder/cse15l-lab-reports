@@ -44,5 +44,10 @@ Normally if we run find with just the directory where we want to look, we will g
 
 ![Just find](typeoutput.png)
 
+There is a lot more output than what it's on this screenshot, but notice how we are getting directories as well as ```.txt``` files in our output. 
+If we run ```find technical -type d```, we would get an output if the result is a directory:
+
+![Find directories](typeoutput1.png)
+
 
 
