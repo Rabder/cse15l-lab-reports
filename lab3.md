@@ -84,7 +84,7 @@ Another example would be displaying all of the files in ```technical/plos/``` al
 
 
 ## ChatGPT prompts
-## Starting point: ```What are some interesting options for find?```
+### Starting point: ```What are some interesting options for find?```
 
 1. Size
 - ```Can you tell me more about the -size option?```
