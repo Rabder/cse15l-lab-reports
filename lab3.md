@@ -1,12 +1,12 @@
 # Lab Report 3
 
-## Researching commands: *find* and some of its options
+# Researching commands: *find* and some of its options
 
 *find* is a Linux command used for searching through file hierarchies and finding files and directories. 
 This makes it a useful command, especially if you have a large number of files and nested directories and you want to find a particular file or directory with as few commands as possible.
 In this lab report, I talk about some of the most interesting options for *find*. All of the information in this report comes from ChatGPT. The prompts I used can be found at the end of this report.
 
-### 1. __-size__ option
+## 1. __-size__ option
 
 This option allows us to filter the search output for files based on their size. We can use this look for files that are larger or smaller than a particular size or within a certain size range.
 
@@ -32,7 +32,7 @@ This is the output we get after running the command:
 ![Size option](sizeoutput1.png) 
 
 
-### 2. __-type__ option
+## 2. __-type__ option
 
 __-type__ allows us to search for files and directories based on their type. This is specified by ```-type <character>```, where the character determines the file type. There are many types  we could use but I think that for now the following two are the ones I will use the most:
 - ```-type f``` for files
@@ -57,7 +57,7 @@ Similarly, if we run ```find technical -type f```, we would only get an output i
 
 
 
-### 3. __-delete__ option
+## 3. __-delete__ option
 We can also use *find* to delete files or directories that match a particular criterion. Combining the *name*, *type* and *delete* options, we can delete files in a particular directory that match our specified extension.
 
 For example, ```find technical/biomed -name "*.txt" -type f -delete``` would delete all the ```.txt``` files in ```technical/biomed```:
@@ -70,7 +70,7 @@ We can also use this option to delete directories. If we wanted to delete ```tec
 ![Delete biomed files](deleteoutput2.png)
 
 
-### 4. -exec option
+## 4. -exec option
 If we want to perform an action on the output we get from find, we can use the ```-exec``` option. For example, if we wanted to pick all of the .txt files of ```technical/plos``` and copy them to a folder named ```exectest``` in the root directory, we would run ```find technical/plos/ -name "*.txt" -exec cp {} ~/exectest/ \;```
 
 ![Copy all of technical/plos](execoutput1.png)
@@ -84,16 +84,16 @@ Another example would be displaying all of the files in ```technical/plos/``` al
 
 
 ## ChatGPT prompts
+## Starting point: ```What are some interesting options for find?```
 
-### Starting point: ```What are some interesting options for find?```
-#### 1. Size
+1. Size
 - ```Can you tell me more about the -size option?```
-#### 2. Type
+2. Type
 - ```Can you tell me more about the -type option?```
-#### 3. Delete
+3. Delete
 - ```Can you tell me more about the -delete option?```
 - ```Can we use this option to delete directories?```
-#### 4. Exec
+4. Exec
 - ```Can you tell me more about the -exec option?```
 - ```What is the \; at the end of the command?```
 - ```What is {}?```
