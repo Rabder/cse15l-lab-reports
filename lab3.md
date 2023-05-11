@@ -65,7 +65,7 @@ For example, ```find technical/biomed -name "*.txt" -type f -delete``` would del
 ![Delete biomed files](deleteoutput1.png)
 
 
-We can also use this option to delete directories. If we wanted to delete ```technical/biomed```, we would run ```find technical -name biomed -type d -delete```
+We can also use this option to delete empty directories. If we wanted to delete ```technical/biomed```, we would run ```find technical -name biomed -type d -delete```
 
 ![Delete biomed files](deleteoutput2.png)
 
