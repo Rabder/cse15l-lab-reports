@@ -22,6 +22,9 @@
 4. I typed ```x``` and hit ```<enter>``` to remove ```1```
 5. I typed ```i``` and hit ```<enter>``` to enter Insert Mode. There I just had to type 2.
 6. I hit ```<esc>```, type ```:wq``` and hit ```<enter>``` to  save the change I made.
+
+![Step 7](step7.png)
+
 ##  Step 8: Running test.sh again
 1. I hit ```<up><up>``` to get ```bash test.sh``` from my command history. I hit ```<enter>``` to run the script again.
 ## Step 9: Commit and push change to repository
