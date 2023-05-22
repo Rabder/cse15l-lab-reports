@@ -12,6 +12,9 @@
 ## Step 6: Running test.sh to see the failing test
 1. I typed ```cd lab7``` and hit ```<enter>``` to get inside the recently cloned ```lab7``` directory.
 2. I typed ```bash test.sh``` and hit ```<enter>``` to run the script that runs the tests.
+
+![Step 6](step6.png)
+
 ## Step 7: Editing ListExamples.java
 1. I typed ```vim ListExamples.java``` and hit ```<enter>```. This opened the file with vim. 
 2. Inside vim, I typed ```?index1``` and hit ```<enter>``` to get to ```index1``` in the file.
