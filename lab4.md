@@ -18,10 +18,10 @@
 ## Step 7: Editing ListExamples.java
 1. I typed ```vim ListExamples.java``` and hit ```<enter>```. This opened the file with vim. 
 2. Inside vim, I typed ```?index1``` and hit ```<enter>``` to get to ```index1``` in the file.
-3. I typed ```e``` and hit ```<enter>``` to get to just before the ```1``` of ```index1```. 
-4. I typed ```x``` and hit ```<enter>``` to remove ```1```
-5. I typed ```i``` and hit ```<enter>``` to enter Insert Mode. There I just had to type 2.
-6. I hit ```<esc>```, type ```:wq``` and hit ```<enter>``` to save the change I made.
+3. I typed ```e``` to get to just before the ```1``` of ```index1```. 
+4. I typed ```x``` to remove ```1```
+5. I typed ```i``` to enter Insert Mode. There I just had to type 2.
+6. I hit ```<esc>```, typed ```:wq``` and hit ```<enter>``` to save the change I made.
 
 ![Step 7](step7.png)
 ![Step 7.1](step71.png)
@@ -36,4 +36,11 @@
 2. Type ```vim .gitignore```, ```i```, type ```*.class```, hit ```<esc>``` and type ```:wq``` to save the file
 3. Type ```git add .gitignore```, ```<enter>``` ,```git add ListExamples.java``` and ```<enter>``` to stage ```ListExamples.java``` and ```.gitignore``` for ```commit```.
 4. Type ```git commit -m "Fixed ListExamples.java and added .gitignore"``` and hit ```<enter>```.
-5. Type ```git push origin main``` to push the changes.
+
+![Step 9.1](step91.png)
+
+6. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
+
+![Step 9.2](step92.png)
+
+
