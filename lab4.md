@@ -6,7 +6,7 @@
 ![Step 4](step4.png)
 ## Step 5: Cloning the fork repository
 1. I typed ```ls``` and hit ```<enter>``` to make sure that I didn't have the cloned repository from my previous attempts. 
-2. I typed ```git clone```, copied the SSH key of the repository (```git@github.com:Rabder/lab7.git```), hit ```<CTRL> + V``` and hit enter to clone the repository.
+2. I typed ```git clone```, copied the SSH key of the repository (```git@github.com:Rabder/lab7.git```), hit ```<CTRL> + V``` and hit ```<enter>``` to clone the repository.
 
 ![Step 5](step5.png)
 ## Step 6: Running test.sh to see the failing test
