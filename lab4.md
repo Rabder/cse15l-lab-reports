@@ -4,7 +4,7 @@
 1. I opened bash, typed ```ssh cs15lsp23ll@ieng6.ucsd.edu``` and hit ```<enter>``` to log into ieng6.
 ## Step 5: Cloning the fork repository
 1. I typed ```ls``` and hit ```<enter>``` to make sure that I didn't have the cloned repository. 
-2. I typed ```git clone```, copied the SSH key of the repository, hit ```<CTRL> + V``` and hit enter to clone the repository.
+2. I typed ```git clone```, copied the SSH key of the repository (```git@github.com:Rabder/lab7.git```), hit ```<CTRL> + V``` and hit enter to clone the repository.
 ## Step 6: Running test.sh to see the failing test
 1. I typed ```cd lab7``` and hit ```<enter>``` to get inside the recently cloned ```lab7``` directory.
 2. I typed ```bash test.sh``` and hit ```<enter>``` to run the script that runs the tests.
