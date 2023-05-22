@@ -2,6 +2,8 @@
 
 ## Step  4: Logging into ieng6
 1. I opened bash, typed ```ssh cs15lsp23ll@ieng6.ucsd.edu``` and hit ```<enter>``` to log into ieng6.
+
+![Step 4](step4.png)
 ## Step 5: Cloning the fork repository
 1. I typed ```ls``` and hit ```<enter>``` to make sure that I didn't have the cloned repository. 
 2. I typed ```git clone```, copied the SSH key of the repository (```git@github.com:Rabder/lab7.git```), hit ```<CTRL> + V``` and hit enter to clone the repository.
