@@ -36,10 +36,9 @@
 2. Type ```vim .gitignore```, ```i```, type ```*.class```, hit ```<esc>``` and type ```:wq``` to save the file
 3. Type ```git add .gitignore```, ```<enter>``` ,```git add ListExamples.java``` and ```<enter>``` to stage ```ListExamples.java``` and ```.gitignore``` for ```commit```.
 4. Type ```git commit -m "Fixed ListExamples.java and added .gitignore"``` and hit ```<enter>```.
+5. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
 
 ![Step 9.1](step91.png)
-
-5. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
 
 ![Step 9.2](step92.png)
 
