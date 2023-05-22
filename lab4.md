@@ -39,7 +39,7 @@
 
 ![Step 9.1](step91.png)
 
-6. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
+5. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
 
 ![Step 9.2](step92.png)
 
