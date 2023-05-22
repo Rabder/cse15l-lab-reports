@@ -28,6 +28,9 @@
 
 ##  Step 8: Running test.sh again
 1. I hit ```<up><up>``` to get ```bash test.sh``` from my command history. I hit ```<enter>``` to run the script again.
+
+![Step 8](step8.png)
+
 ## Step 9: Commit and push change to repository
 1. Type ```git status``` + ```<enter>```.
 2. Type ```vim .gitignore```, ```i```, type ```*.class```, hit ```<esc>``` and type ```:wq``` to save the file
