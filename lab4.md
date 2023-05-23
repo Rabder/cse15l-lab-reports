@@ -33,7 +33,7 @@
 
 ## Step 9: Commit and push change to repository
 1. Type ```git status``` + ```<enter>```.
-2. Type ```vim .gitignore```, ```i```, type ```*.class```, hit ```<esc>``` and type ```:wq``` to save the file. Doing this tells git to not track any .class files.
+2. Type ```vim .gitignore```, ```i```, type ```*.class```, hit ```<esc>``` and type ```:wq``` to save the file. Doing this tells git to not track any ```.class``` files.
 3. Type ```git add .gitignore```, ```<enter>``` ,```git add ListExamples.java``` and ```<enter>``` to stage ```ListExamples.java``` and ```.gitignore``` for ```commit```.
 4. Type ```git commit -m "Fixed ListExamples.java and added .gitignore"``` and hit ```<enter>```.
 5. Type ```git push origin main``` and hit ```<enter>``` to push the changes.
