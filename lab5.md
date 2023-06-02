@@ -2,7 +2,7 @@
 
 ## Student question on EdStem
 
-```What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
+>> What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 
 
 
@@ -10,7 +10,7 @@ Detail the symptom you're seeing. Be specific; include both what you're seeing a
 
 
 
-Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.```
+Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
 
 
