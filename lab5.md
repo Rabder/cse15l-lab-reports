@@ -35,7 +35,7 @@
 >> I think the issue could be the way I'm checking whether the code failed any test. Instead of running ```grep "Failures " junit.txt > result.txt``` I should be running ```grep "Failures:" junit.txt > result.txt```, since that string would be in the line that would tell me how many tests failed. There is no "Failures " string in the text file, which is probably why it didn't report any errors.
  
  
- ## Setup for reproducing this problem
+## Setup for reproducing this problem
  1. Clone this repository: https://github.com/Rabder/list-examples-grader.git. This is the grading script my lab partner and I wrote during lab.
  2. The file hierarchy should look like this: <br />
  ![File hierarchy of project](file_hierarchy.png)
@@ -314,7 +314,7 @@ grading-area/*
  
 The ```lib``` folder contains the ```.jar``` files ```hamcrest-core-1.3.jar``` and ```junit-4.13.2.jar```, which are needed to run the JUnit tests in ```TestListExamples.java```.
  
- ### Command lines ran
+### Command lines ran
  1. ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected```. This command runs the grading script for this repository and should give the same output as the one in the student's screenshot.
  
 ### Fixing the bug
