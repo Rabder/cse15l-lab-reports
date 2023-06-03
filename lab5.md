@@ -131,9 +131,11 @@ class ExecExamples {
     String[] cmd3 = {"touch", "a-new-file.txt"};
     System.out.println(ExecHelpers.exec(cmd3));
   }
-} ```
+} 
+```
  
 - Server.java
+
 ```
 // A simple web server using Java's built-in HttpServer
 
@@ -190,8 +192,10 @@ public class Server {
         System.out.println("(Or, if it's running locally on this computer, use http://localhost:" + port + " )");
     }
 }
+
 ```
 - TestListExamples.java
+
 ``` 
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -230,7 +234,9 @@ public class TestListExamples {
 
 }
 ```
+
 - grade.sh
+
 ```
 CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar'
  
@@ -304,7 +310,7 @@ fi
 
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
- ```
+```
  
 - .gitignore
  
