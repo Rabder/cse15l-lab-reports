@@ -5,7 +5,7 @@
 >> **_What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?_**  <br />
  Computer and operating system: Windows on my personal laptop. Editor: VSCode. Browser: Google Chrome. <br /> <br />
 >>**_Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”._**<br />
->>The output of grade.sh shows that every test out of the four tests passed, when three are meant to fail.
+>>The output of grade.sh shows that every test out of the four tests passed, when three are meant to fail. <br />
 >>Expected output:
 >>```Out of 4 tests, you failed 3 :
 >>1) testAlwaysFail(TestListExamples)
