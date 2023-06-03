@@ -329,7 +329,7 @@ If no tests failed, it would look like this:
  OK (4 tests)
  ...
  ```
-The bug can be fixed by changing the pattern passed into grep when looking for any failing tests in the JUnit output. Since there is no line that contains the string ```Failures ```` (note the space) whether there are failing tests or not, ```result.txt``` will always we empty. Since we rely on what is stored in ```result.txt``` to get the failure count, the script will never find failing tests.
+The bug can be fixed by changing the pattern passed into grep when looking for any failing tests in the JUnit output. Since there is no line that contains the string ```Failures ``` (note the space) whether there are failing tests or not, ```result.txt``` will always we empty. Since we rely on what is stored in ```result.txt``` to get the failure count, the script will never find failing tests.
 We want this particular line of the output, so instead of running ```grep "Failures " junit.txt > result.txt``` we would run ```grep **"Failures:"** junit.txt > result.txt```. 
  
 ```
