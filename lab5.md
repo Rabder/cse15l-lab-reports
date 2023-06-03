@@ -30,5 +30,5 @@
  
  
 ## Student follow-up question
->> Ok so this is what is in the ```junit.txt``` file. 
+>> Ok this is what ```junit.txt``` looks like.
  >>![Student follow-up](student_followup.png)
