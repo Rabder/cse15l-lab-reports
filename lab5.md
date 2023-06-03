@@ -42,7 +42,8 @@
  
  ### Contents of each file (before fixing the bug)
  - GradeServer.java
- ```import java.io.BufferedReader;
+ ```java
+ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -130,7 +131,7 @@ class ExecExamples {
     System.out.println(ExecHelpers.exec(cmd3));
   }
 }
-```java
+```
 - Server.java
  ```// A simple web server using Java's built-in HttpServer
 
