@@ -343,4 +343,4 @@ grep "Failures:" junit.txt > result.txt
 ```
 
 ## Final reflection 🥲
- I thought learning about bash scripting was very interesting, since they allow developers to automate tasks that would be tedious to do manually. I looked up some of the other things that bash could do and I found out that it can be very useful for managing files (e.g., moving files of a particular file type to a directory or making backups of a directory). 
+ I thought learning about bash scripting was very interesting, since it allows developers to automate tasks that would be tedious to do manually. I looked up some of the other things that *bash* could do and I found out that it can be very useful for managing files (e.g., moving files of a particular file type to a directory or making backups of a directory). 
