@@ -133,7 +133,8 @@ class ExecExamples {
 }
 ```
 - Server.java
- ```// A simple web server using Java's built-in HttpServer
+ ```java
+ // A simple web server using Java's built-in HttpServer
 
 // Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
 
@@ -190,7 +191,8 @@ public class Server {
 }
 ```
 - TestListExamples.java
- ``` import static org.junit.Assert.*;
+ ```java 
+ import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.Arrays;
 import java.util.List;
@@ -228,7 +230,7 @@ public class TestListExamples {
 }
 ```
 - grade.sh
- ```
+ ```bash
  CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar'
  
 rm -rf student-submission
