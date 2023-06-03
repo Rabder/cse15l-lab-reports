@@ -7,7 +7,7 @@
 >>**_Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”._**<br />
 
 >>**_Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can._**
-I'm running grade.sh with one of the sample student repositories that has bugs in it. TestListExmples.java 
+>>I'm running grade.sh with one of the sample student repositories that has bugs in it. TestListExmples.java 
 has 4 tests: 3 are meant to always fail and 1 is meant to always pass.
 I'm expecting to get a message that prints that the code failed three of the tests and that the code got a score of 25 out of 100 (1/4 tests passed). 
 
