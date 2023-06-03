@@ -302,3 +302,8 @@ fi
 # tests
  ```
  
+- .gitignore
+ ``` *.class
+grading-area/*
+```
+ 
