@@ -335,7 +335,7 @@ We want this particular line of the output, so instead of running ```grep "Failu
 ```
  ...
 # Detect if it any tests failed by looking at the JUnit output
-grep **"Failures:"** junit.txt > result.txt
+grep __"Failures:"__ junit.txt > result.txt
 if [[ $? -eq 0 ]]
  ...
 ```
