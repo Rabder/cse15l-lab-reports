@@ -24,6 +24,6 @@
 
 
 ## TA Response 
->> Hi there! 
-
-
+>> Hi there!
+>> Based on the screenshot you provided, your issue could be related with how you parse your JUnit tests. 
+>> It seems that you are storing the JUnit output in the ```junit.txt``` file. Try opening that file or running ```cat junit.txt``` to see whether the test results are being stored correctly. 
