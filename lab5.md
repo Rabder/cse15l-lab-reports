@@ -309,3 +309,5 @@ fi
 grading-area/*
 ```
  
+The ```lib``` folder contains the ```.jar``` files ```hamcrest-core-1.3.jar``` and ```junit-4.13.2.jar```, which are needed to run the JUnit tests in ```TestListExamples.java```.
+ 
