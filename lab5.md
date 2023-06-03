@@ -41,7 +41,7 @@
  ![File hierarchy of project](file_hierarchy.png)
  
  ### Contents of each file (before fixing the bug)
- 1. GradeServer.java
+ - GradeServer.java
  ```import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -129,5 +129,100 @@ class ExecExamples {
     String[] cmd3 = {"touch", "a-new-file.txt"};
     System.out.println(ExecHelpers.exec(cmd3));
   }
+}
+```
+- Server.java
+ ```// A simple web server using Java's built-in HttpServer
+
+// Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.URI;
+
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.HttpServer;
+
+interface URLHandler {
+    String handleRequest(URI url) throws IOException;
+}
+
+class ServerHttpHandler implements HttpHandler {
+    URLHandler handler;
+    ServerHttpHandler(URLHandler handler) {
+      this.handler = handler;
+    }
+    public void handle(final HttpExchange exchange) throws IOException {
+        // form return body after being handled by program
+        try {
+            String ret = handler.handleRequest(exchange.getRequestURI());
+            // form the return string and write it on the browser
+            exchange.sendResponseHeaders(200, ret.getBytes().length);
+            OutputStream os = exchange.getResponseBody();
+            os.write(ret.getBytes());
+            os.close();
+        } catch(Exception e) {
+            String response = e.toString();
+            exchange.sendResponseHeaders(500, response.getBytes().length);
+            OutputStream os = exchange.getResponseBody();
+            os.write(response.getBytes());
+            os.close();
+        }
+    }
+}
+
+public class Server {
+    public static void start(int port, URLHandler handler) throws IOException {
+        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+
+        //create request entrypoint
+        server.createContext("/", new ServerHttpHandler(handler));
+
+        //start the server
+        server.start();
+        System.out.println("Server started at http://" + InetAddress.getLocalHost().getHostName() + ":" + port);
+        System.out.println("(Or, if it's running locally on this computer, use http://localhost:" + port + " )");
+    }
+}
+```
+- TestListExamples.java
+ ``` import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+
+class IsMoon implements StringChecker {
+  public boolean checkString(String s) {
+    return s.equalsIgnoreCase("moon");
+  }
+}
+
+public class TestListExamples {
+  @Test(timeout = 500)
+  public void testMergeRightEnd() {
+    List<String> left = Arrays.asList("a", "b", "c");
+    List<String> right = Arrays.asList("a", "d");
+    List<String> merged = ListExamples.merge(left, right);
+    List<String> expected = Arrays.asList("a", "a", "b", "c", "d");
+    assertEquals(expected, merged);
+  }
+
+  @Test
+  public void testAlwaysFail(){
+    assertFalse(true);
+  }
+  @Test
+  public void testAlwaysFail1(){
+    assertFalse(true);
+  }
+  @Test
+  public void testAlwaysFail2(){
+    assertFalse(true);
+  }
+
+
 }
 ```
