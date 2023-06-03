@@ -311,3 +311,5 @@ grading-area/*
  
 The ```lib``` folder contains the ```.jar``` files ```hamcrest-core-1.3.jar``` and ```junit-4.13.2.jar```, which are needed to run the JUnit tests in ```TestListExamples.java```.
  
+ ### Command lines ran
+ 1. ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected```. This command runs the grading script for this repository and should give the same output as the one in the student's screenshot.
