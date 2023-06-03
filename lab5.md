@@ -313,3 +313,28 @@ The ```lib``` folder contains the ```.jar``` files ```hamcrest-core-1.3.jar``` a
  
  ### Command lines ran
  1. ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected```. This command runs the grading script for this repository and should give the same output as the one in the student's screenshot.
+ 
+### Fixing the bug
+ The JUnit output has a line that tells you how many tests were ran and how many failed.
+ 
+ If any test fails, it would look something like this:
+ ```
+ ...
+Tests run: 4,  Failures: 4
+ ...
+ ```
+If no tests failed, it would look like this:
+ ```
+ ...
+ OK (4 tests)
+ ...
+ ```
+The bug can be fixed by changing the pattern passed into grep when looking for any failing tests in the JUnit output. Since there is no line that contains the string ```Failures ```` (note the space) whether there are failing tests or not, ```result.txt``` will always we empty. Since we rely on what is stored in ```result.txt``` to get the failure count, the script will never find failing tests.
+We want this particular line of the output, so instead of running ```grep "Failures " junit.txt > result.txt``` we would run ```grep **"Failures:"** junit.txt > result.txt```. 
+ 
+```
+# Detect if it any tests failed by looking at the JUnit output
+grep **"Failures:"** junit.txt > result.txt
+if [[ $? -eq 0 ]]
+```
+ 
