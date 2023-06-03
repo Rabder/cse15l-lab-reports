@@ -43,7 +43,8 @@
 ### Contents of each file (before fixing the bug)
  - GradeServer.java
 
- ``` java import java.io.BufferedReader;
+ ```
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -133,7 +134,7 @@ class ExecExamples {
 } ```
  
 - Server.java
-```java
+```
 // A simple web server using Java's built-in HttpServer
 
 // Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
@@ -191,7 +192,7 @@ public class Server {
 }
 ```
 - TestListExamples.java
-```java 
+``` 
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.Arrays;
@@ -230,7 +231,7 @@ public class TestListExamples {
 }
 ```
 - grade.sh
-```bash
+```
 CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar'
  
 rm -rf student-submission
