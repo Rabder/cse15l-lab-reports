@@ -12,9 +12,9 @@
 >>2) testAlwaysFail1(TestListExamples)        
 >>3) testAlwaysFail2(TestListExamples)        
 >>Your score is 25 out of 100
->>>```
-Actual output:
-![Student screenshot](student_screenshot.png)
+>>```
+>>Actual output:
+>>![Student screenshot](student_screenshot.png)
 
 >>**_Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can._**
 >>I'm running grade.sh with one of the sample student repositories that has bugs in it. TestListExmples.java 
