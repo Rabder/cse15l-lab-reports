@@ -130,7 +130,7 @@ class ExecExamples {
     System.out.println(ExecHelpers.exec(cmd3));
   }
 }
-```
+```java
 - Server.java
  ```// A simple web server using Java's built-in HttpServer
 
