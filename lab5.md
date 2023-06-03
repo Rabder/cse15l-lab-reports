@@ -335,9 +335,9 @@ We want this particular line of the output, so instead of running ```grep "Failu
  Fixed code in grade.sh:  
 ```
  ...
-# Detect if it any tests failed by looking at the JUnit output
-grep "Failures:" junit.txt > result.txt
-if [[ $? -eq 0 ]]
+37 # Detect if it any tests failed by looking at the JUnit output
+38 grep "Failures:" junit.txt > result.txt
+39 if [[ $? -eq 0 ]]
  ...
 ```
  
