@@ -32,5 +32,5 @@
 ## Student follow-up question
 >> Ok this is what ```junit.txt``` looks like.
 >>![Student follow-up](student_followup.png)
->> I think the issue could be the way I'm checking whether the code failed any test. Instead of running ```grep "Failures " junit.txt > result.txt``` I should be running ```grep "Failures:" junit.txt > result.txt```, since that's the line that would tell me how many tests failed. 
+>> I think the issue could be the way I'm checking whether the code failed any test. Instead of running ```grep "Failures " junit.txt > result.txt``` I should be running ```grep "Failures:" junit.txt > result.txt```, since that string would be in the line that would tell me how many tests failed. 
  
