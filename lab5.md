@@ -303,7 +303,9 @@ fi
  ```
  
 - .gitignore
- ``` *.class
+ 
+ ``` 
+ *.class
 grading-area/*
 ```
  
