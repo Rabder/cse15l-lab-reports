@@ -27,3 +27,8 @@
 >> Hi there!
 >> Based on the screenshot you provided, your issue could be related with how you parse your JUnit tests. 
 >> It seems that you are storing the JUnit output in the ```junit.txt``` file. Try opening that file or running ```cat <path of junit.txt>``` to see whether the test results are being stored correctly in the file. 
+ 
+ 
+## Student follow-up question
+>> Ok so this is what is in the ```junit.txt``` file. 
+ >>![Student follow-up](student_followup.png)
