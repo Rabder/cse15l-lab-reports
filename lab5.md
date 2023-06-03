@@ -35,4 +35,6 @@
 >> I think the issue could be the way I'm checking whether the code failed any test. Instead of running ```grep "Failures " junit.txt > result.txt``` I should be running ```grep "Failures:" junit.txt > result.txt```, since that string would be in the line that would tell me how many tests failed. There is no "Failures " string in the text file, which is probably why it didn't report any errors.
  
  
- 
+ ## Setup for reproducing this problem
+ 1. Clone this repository: https://github.com/Rabder/list-examples-grader.git. This is the grading script my lab partner and I wrote during lab.
+ 2. The file hierarchy should look like this:
