@@ -19,7 +19,7 @@
 >>![Student screenshot](student_screenshot.png)
 >>**_Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can._** <br />
 >>I'm running grade.sh with one of the sample student repositories that has bugs in it: (https://github.com/ucsd-cse15l-f22/list-methods-corrected). TestListExmples.java 
->>has 4 tests: 3 are meant to always fail and 1 is meant to always pass.
+>>has 4 tests: 3 are meant to always fail and 1 is meant to always pass. My script is meant to extract the number of failing tests and the number of passing tests.
 >>I'm expecting to get a message that prints that the code failed three of the tests and that the code got a score of 25 out of 100 (1/4 tests passed). 
 
 
@@ -31,4 +31,6 @@
  
 ## Student follow-up question
 >> Ok this is what ```junit.txt``` looks like.
- >>![Student follow-up](student_followup.png)
+>>![Student follow-up](student_followup.png)
+>> I think the issue could be the way I'm checking whether the code failed any test. Instead of 
+ 
