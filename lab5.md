@@ -37,5 +37,5 @@
  
  ## Setup for reproducing this problem
  1. Clone this repository: https://github.com/Rabder/list-examples-grader.git. This is the grading script my lab partner and I wrote during lab.
- 2. The file hierarchy should look like this:
+ 2. The file hierarchy should look like this: <br />
  ![File hierarchy of project](file_hierarchy.png)
