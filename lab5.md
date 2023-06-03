@@ -40,9 +40,9 @@
  2. The file hierarchy should look like this: <br />
  ![File hierarchy of project](file_hierarchy.png)
  
- ### Contents of each file (before fixing the bug)
+### Contents of each file (before fixing the bug)
  - GradeServer.java
-```java
+``` java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -132,6 +132,7 @@ class ExecExamples {
   }
 }
 ```
+ 
 - Server.java
 ```java
 // A simple web server using Java's built-in HttpServer
